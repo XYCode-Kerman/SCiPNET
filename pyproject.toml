@@ -9,7 +9,13 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 click = "^8.1.7"
+rich = "^13.7.0"
+cmd2 = "^2.4.3"
+rich-click = "^1.7.1"
 
+
+[tool.poetry.group.dev.dependencies]
+pynvim = "^0.4.3"
 
 [build-system]
 requires = ["poetry-core"]
